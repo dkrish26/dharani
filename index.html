@@ -51,7 +51,7 @@ h1 .dim{color:var(--muted)}
 
 .photo-wrap{position:relative;display:flex;justify-content:center}
 .photo-frame{position:relative}
-.photo-frame::before{content:'';position:absolute;inset:-3px;border-radius:20px;background:linear-gradient(135deg,var(--accent),var(--accent2));z-index:0}
+.photo-frame::before{display:none}
 .photo-frame img{position:relative;z-index:1;width:100%;border-radius:18px;display:block;object-fit:cover}
 .photo-badge{position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);z-index:2;background:var(--card);border:1px solid var(--border);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:500;color:var(--green);white-space:nowrap;display:flex;align-items:center;gap:6px;box-shadow:0 2px 12px rgba(0,0,0,0.08)}
 .photo-badge::before{content:'';display:block;width:7px;height:7px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
