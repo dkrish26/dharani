@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Studies — Dharani Krishnaa Ramdas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5f0e8;--bg2:#ede8df;--bg3:#e4dfd5;--border:rgba(0,0,0,0.09);--text:#1a1814;--muted:#6b6560;--accent:#1a56db;--accent2:#7c3aed;--green:#15803d;--card:#ffffff}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(1.5rem,5vw,4rem);height:60px;background:rgba(245,240,232,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+.nav-logo{font-family:'Lora',serif;font-size:18px;font-weight:700;color:var(--text);text-decoration:none;letter-spacing:-0.3px}
+.nav-logo span{color:var(--accent)}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:13px;font-weight:500;transition:color 0.2s}
+.nav-links a:hover,.nav-links a.active{color:var(--accent)}
+.article-wrap{max-width:760px;margin:0 auto;padding:calc(60px + 4rem) clamp(1.5rem,5vw,2rem) 6rem}
+.back-link{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);text-decoration:none;margin-bottom:2.5rem;transition:color .2s}
+.back-link:hover{color:var(--accent)}
+.article-eyebrow{font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
+.article-title{font-family:'Lora',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;line-height:1.15;letter-spacing:-1px;color:var(--text);margin-bottom:1.25rem}
+.article-meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:2.5rem;padding-bottom:2.5rem;border-bottom:1px solid var(--border)}
+.meta-item{font-size:13px;color:var(--muted)}
+.meta-item strong{color:var(--text);font-weight:500}
+.article-intro{font-family:'Lora',serif;font-size:1.15rem;line-height:1.75;color:var(--text);margin-bottom:3rem;font-style:italic}
+h2{font-family:'Lora',serif;font-size:1.4rem;font-weight:700;color:var(--text);margin:3rem 0 1rem;letter-spacing:-0.3px}
+h3{font-family:'Lora',serif;font-size:1.1rem;font-weight:600;color:var(--text);margin:2rem 0 0.75rem}
+p{color:var(--muted);line-height:1.8;margin-bottom:1.25rem}
+p strong{color:var(--text);font-weight:600}
+.figure{margin:2.5rem 0;border-radius:12px;overflow:hidden;border:1px solid var(--border)}
+.figure img{width:100%;display:block}
+.figure-caption{background:var(--bg2);padding:10px 16px;font-size:12px;color:var(--muted);font-style:italic}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:2.5rem 0}
+.stat-cell{background:var(--card);padding:1.25rem;text-align:center}
+.stat-num{font-family:'Lora',serif;font-size:1.6rem;font-weight:700;color:var(--text);letter-spacing:-1px}
+.stat-num span{color:var(--accent)}
+.stat-label{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.3}
+.callout{background:var(--card);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin:2rem 0}
+.callout p{margin:0;color:var(--text);font-family:'Lora',serif;font-style:italic;font-size:1rem}
+.tag-list{display:flex;flex-wrap:wrap;gap:8px;margin:2rem 0}
+.tag{padding:4px 12px;border-radius:100px;font-size:12px;font-weight:500;background:var(--bg2);color:var(--muted);border:1px solid var(--border)}
+.verdict{background:linear-gradient(135deg,rgba(26,86,219,.06),rgba(124,58,237,.06));border:1px solid rgba(26,86,219,.15);border-radius:12px;padding:2rem;margin:3rem 0}
+.verdict h3{margin-top:0;color:var(--accent)}
+.verdict ul{list-style:none;padding:0}
+.verdict ul li{font-size:14px;color:var(--muted);padding:4px 0 4px 20px;position:relative;line-height:1.6}
+.verdict ul li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:600}
+.timeline{position:relative;padding-left:24px;margin:2rem 0}
+.timeline::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:2px;background:var(--border)}
+.tl-item{position:relative;margin-bottom:2rem}
+.tl-item::before{content:'';position:absolute;left:-28px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.tl-date{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.tl-title{font-family:'Lora',serif;font-size:1rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.tl-desc{font-size:13px;color:var(--muted);line-height:1.6}
+footer{text-align:center;padding:2rem;border-top:1px solid var(--border);font-size:12px;color:var(--muted)}
+@media(max-width:600px){nav .nav-links{display:none}.stat-row{grid-template-columns:repeat(2,1fr)}}
+
+.page-wrap{max-width:900px;margin:0 auto;padding:calc(60px + 4rem) clamp(1.5rem,5vw,2rem) 6rem}
+.cs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;margin-top:3rem}
+.cs-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:2rem;text-decoration:none;display:block;transition:border-color .25s,transform .25s,box-shadow .25s;position:relative;overflow:hidden}
+.cs-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));opacity:0;transition:opacity .25s}
+.cs-card:hover{border-color:rgba(26,86,219,.25);transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.08)}
+.cs-card:hover::before{opacity:1}
+.cs-cat{font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.cs-title{font-family:'Lora',serif;font-size:1.2rem;font-weight:700;color:var(--text);margin-bottom:10px;line-height:1.3}
+.cs-desc{font-size:13px;color:var(--muted);line-height:1.65;margin-bottom:1.5rem}
+.cs-stats{display:flex;gap:1.5rem;flex-wrap:wrap;padding-top:1rem;border-top:1px solid var(--border);margin-bottom:1.5rem}
+.cs-stat-num{font-family:'Lora',serif;font-size:1.3rem;font-weight:700;color:var(--text)}
+.cs-stat-num span{color:var(--accent)}
+.cs-stat-label{font-size:11px;color:var(--muted)}
+.cs-link{font-size:13px;font-weight:500;color:var(--accent)}
+</style>
+</head>
+<body><nav>
+  <a href="/" class="nav-logo">DK<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="/#skills">Skills</a></li>
+    <li><a href="/#projects">Projects</a></li>
+    <li><a href="/case-studies" class="active">Case Studies</a></li>
+    <li><a href="/#experience">Experience</a></li>
+    <li><a href="/#contact">Contact</a></li>
+  </ul>
+</nav>
+<div class="page-wrap">
+  <div class="article-eyebrow">Real work · Real results</div>
+  <h1 class="article-title">Case Studies</h1>
+  <p style="color:var(--muted);font-size:1rem;line-height:1.75;max-width:600px">Detailed write-ups of projects where I diagnosed a problem, led the fix, and measured the outcome — working across technical and operational domains simultaneously.</p>
+  <div class="cs-grid">
+    <a href="/seo-case-study" class="cs-card">
+      <div class="cs-cat">SEO · Web Performance · Next.js</div>
+      <div class="cs-title">How We Made 30,000 Product Pages Discoverable on Google</div>
+      <div class="cs-desc">Magrudy's had 30,000 products. Google could see almost none of them. A client-side rendering issue, a placeholder sitemap, and a broken robots.txt were hiding the entire catalogue from search.</div>
+      <div class="cs-stats">
+        <div><div class="cs-stat-num">&lt;1K <span>→</span> 7.5K</div><div class="cs-stat-label">Daily visits</div></div>
+        <div><div class="cs-stat-num">34<span>K</span></div><div class="cs-stat-label">Pages indexed</div></div>
+        <div><div class="cs-stat-num">9.6<span>%</span></div><div class="cs-stat-label">CTR</div></div>
+      </div>
+      <div class="cs-link">Read case study →</div>
+    </a>
+    <a href="/erp-case-study" class="cs-card">
+      <div class="cs-cat">ERP · Operations · Programme Management</div>
+      <div class="cs-title">Migrating 22 Retail Locations to Microsoft Business Central 365</div>
+      <div class="cs-desc">A 10-month ERP programme covering vendor evaluation, FRD, opening balances, downtime planning, and staged go-live across all UAE locations — led solo as Programme Manager and Functional Consultant.</div>
+      <div class="cs-stats">
+        <div><div class="cs-stat-num">22</div><div class="cs-stat-label">Locations migrated</div></div>
+        <div><div class="cs-stat-num">8<span>×</span></div><div class="cs-stat-label">Throughput uplift</div></div>
+        <div><div class="cs-stat-num">&lt;<span>24</span>hr</div><div class="cs-stat-label">HQ cutover</div></div>
+      </div>
+      <div class="cs-link">Read case study →</div>
+    </a>
+  </div>
+</div>
+<footer><p>© 2026 Dharani Krishnaa Ramdas · <a href="/" style="color:var(--muted);text-decoration:none">dharanikrishnaa.com</a></p></footer>
+</body></html>
